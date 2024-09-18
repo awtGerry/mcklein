@@ -21,7 +21,7 @@ public class ProductorConsumidor extends JFrame implements ActionListener {
     private boolean estadoProductor = false;
     private boolean estadoConsumidor = false;
 
-    public static int TAM_BUFFER = 7;
+    public static int TAM_BUFFER = 5;
     public static int buffer[] = new int[TAM_BUFFER];
     public static int in = 0, out = 0, count = 0;
 
